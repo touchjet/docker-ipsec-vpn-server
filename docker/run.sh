@@ -132,8 +132,8 @@ EOF
 cat > /etc/ppp/options.xl2tpd <<'EOF'
 ipcp-accept-local
 ipcp-accept-remote
+ms-dns 1.1.1.1
 ms-dns 8.8.8.8
-ms-dns 8.8.4.4
 noccp
 auth
 crtscts
